@@ -1,0 +1,46 @@
+.container{
+    padding:0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+    #startButton{
+        font-size: 22px;
+        background-color: rgb(142, 230, 142);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+    }
+#intro{
+    font-size: 35px;
+    font-weight: bold;
+    position: fixed;
+    top: 35%;
+    left: 10%;
+}
+h1{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    }
+
+    
+
+#buttonA, #buttonB,
+#buttonC, #buttonD {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(158, 64, 158);
+    padding: 15px 30px;
+    gap: 30px;
+}
+
+
+.hide {
+    display: none;
+}

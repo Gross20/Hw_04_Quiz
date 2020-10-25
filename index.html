@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz_hw</title>
+</head>
+
+
+<body>
+    <button id="startButton"> Start </button>
+    <h1 id="timer"></h1>
+    <div id="intro">
+        Welcome to the coding timed quiz! For every correct answer you select you will move on to the next
+        question.
+        For every wrong answer you choose 10 seconds will come off of your timer.
+        Good Luck! Press Start to begin 😊
+    </div>
+    <div id="container" class="container">
+        <h2 id="question" class="hide"></h2>
+        <div id="answerButtons" class="hide">
+            <button class id="buttonA" data-answer="A"></button>
+            <button class id="buttonB" data-answer="B"></button>
+            <button class id="buttonC" data-answer="C"></button>
+            <button class id="buttonD" data-answer="D"></button>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+
+
+</html>
